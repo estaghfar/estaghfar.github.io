@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>حذف الحساب — مُذكِّر الاستغفار · Delete account — Istighfar Reminder</title>
+<style>
+ :root{--ink:#14202b;--mut:#5b6b7a;--brand:#156082;--bg:#f6f9fb;--card:#fff}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.85 "Segoe UI",Tahoma,"Noto Naskh Arabic",system-ui,sans-serif}
+ header{background:linear-gradient(135deg,#1a74a0,#0b2f46);color:#fff;padding:34px 16px 30px}
+ header .in{max-width:860px;margin:0 auto}
+ header h1{margin:0 0 8px;font-size:26px;line-height:1.5;color:#fff}
+ header p{margin:0;opacity:.9}
+ main{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+ .card{background:var(--card);border-radius:16px;padding:22px 24px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);margin:14px 0}
+ h1,h2,h3,h4{color:var(--brand);line-height:1.4;margin:1.2em 0 .5em}
+ h1{font-size:24px}h2{font-size:21px}h3{font-size:18px}h4{font-size:16px}
+ p,li{margin:.4em 0}
+ ul{padding-inline-start:1.4em}
+ code{background:#eef3f7;padding:1px 6px;border-radius:6px;font-size:.92em}
+ table{border-collapse:collapse;width:100%;margin:10px 0;font-size:.95em}
+ th,td{border:1px solid #dbe4ec;padding:8px 10px;vertical-align:top}
+ th{background:#eef5fa}
+ hr{border:0;border-top:1px solid #dbe4ec;margin:26px 0}
+ a{color:var(--brand)}
+ footer{color:var(--mut);font-size:.9em;text-align:center;padding:20px}
+ [dir=rtl]{text-align:right}[dir=ltr]{text-align:left}
+</style>
+</head>
+<body>
+<header><div class="in">
+ <h1>🗑 حذف الحساب والبيانات — مُذكِّر الاستغفار</h1>
+ <p>Delete account and data — Istighfar Reminder · <span dir="ltr">com.kaf.istighfar</span></p>
+</div></header>
+<main><div class="card">
+<h2 dir="rtl">حذفُ حسابك وبياناتك — تطبيق «مُذكِّر الاستغفار»</h2>
+<p dir="rtl"><strong>التطبيق:</strong> مُذكِّر الاستغفار (Istighfar Reminder)
+&middot; <code>com.kaf.istighfar</code><br>
+<strong>الناشر:</strong> Ammar Alshaer &middot;
+<strong>بريد التواصل:</strong> ammarfor@gmail.com<br>
+<strong>تاريخ آخر تحديث:</strong> 2026-11-05</p>
+<hr>
+
+<h3 dir="rtl">الطريقةُ الأولى — من داخل التطبيق (الأسرع)</h3>
+<p dir="rtl">الإعدادات ← <strong>☁ مزامنة جوجل</strong> ←
+<strong>«🗑 احذف حسابي وبياناتي»</strong> ← تأكيد. يحذف الزرُّ وثائقَ
+مزامنتك ثمّ حسابَك في فايربيس، ويمسح بيانات الجلسة من جهازك، ويُبلغك
+بالنتيجة. التنفيذُ فوريّ.</p>
+
+<h3 dir="rtl">الطريقةُ الثانية — من هذه الصفحة بلا تنزيل التطبيق</h3>
+<p dir="rtl">إن أزلتَ التطبيق أو تعذّر عليك فتحُه، فلا حاجةَ لتنزيله من
+جديد. أرسل رسالةً إلى:</p>
+<p dir="rtl" style="font-size:1.15em"><strong><a
+ href="mailto:ammarfor@gmail.com?subject=%D8%AD%D8%B0%D9%81%20%D8%AD%D8%B3%D8%A7%D8%A8%20%E2%80%94%20%D9%85%D9%8F%D8%B0%D9%83%D9%90%D9%91%D8%B1%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%BA%D9%81%D8%A7%D8%B1">ammarfor@gmail.com</a></strong></p>
+<ul dir="rtl">
+<li><strong>من البريد الإلكتروني نفسِه الذي سجّلتَ به الدخول</strong> —
+وهو ما يُثبت أنّك صاحبُ الحساب.</li>
+<li>وعنوانُ الرسالة: <code>حذف حساب — مُذكِّر الاستغفار</code></li>
+</ul>
+<p dir="rtl">لا يلزمك شيءٌ غيرُ ذلك: لا إلغاءَ اشتراكٍ ولا دفعٌ ولا
+خطوةٌ سابقة — التطبيقُ مجّانيٌّ بلا اشتراكات.</p>
+<hr>
+
+<h3 dir="rtl">ما الذي يُحذف</h3>
+<ul dir="rtl">
+<li><strong>وثائقُ مزامنتك كلُّها</strong> تحت
+<code>users/{معرّفك}/sync</code> — أي مجاميعُ أذكارك اليومية وأوقاتُ آخر
+تسجيلٍ فيها.</li>
+<li><strong>سجلُّ حسابك</strong> في Firebase Authentication — بريدُك
+الإلكتروني ومعرّفُ حسابك.</li>
+</ul>
+<p dir="rtl">ولا يبقى بعده شيءٌ عنك في السحابة. <strong>والحذفُ لا
+رجعةَ فيه.</strong></p>
+
+<h3 dir="rtl">ما الذي لا يُحذف بهذا — وكيف تمحوه</h3>
+<ul dir="rtl">
+<li><strong>ما على جهازك</strong> (عدُّك وسجلُّك وإعداداتُك): يُمحى
+بإلغاء تثبيت التطبيق، أو: إعدادات النظام ← التطبيقات ← «مُذكِّر
+الاستغفار» ← التخزين ← مسح البيانات.</li>
+<li><strong>نسختُك الاحتياطية في حساب جوجل</strong> (إن كان نسخُ أندرويد
+الاحتياطيُّ مفعّلاً): تُدار من إعدادات جهازك ومن حسابك على جوجل — ولا
+نصل إليها.</li>
+</ul>
+
+<h3 dir="rtl">مدّةُ التنفيذ</h3>
+<p dir="rtl">زرُّ التطبيق: <strong>فوريّ</strong>. وطلبُ البريد:
+<strong>٣٠ يوماً كحدٍّ أقصى</strong> — وعملياً خلال أيام، ونؤكّد لك
+التنفيذَ بالبريد.</p>
+<p dir="rtl">ولا نحتفظ بأيّ نسخةٍ بعد الحذف، إلّا ما يُلزمنا به نظامٌ
+ساري المفعول — ولا شيءَ من ذلك قائمٌ اليوم.</p>
+<hr>
+<p dir="rtl">📄 <a href="privacy.html">سياسةُ
+الخصوصية الكاملة</a></p>
+<hr><hr>
+<h2 dir="ltr">Delete your account and data — “Istighfar Reminder”</h2>
+<p dir="ltr"><strong>App:</strong> Istighfar Reminder (مُذكِّر الاستغفار)
+&middot; <code>com.kaf.istighfar</code><br>
+<strong>Publisher:</strong> Ammar Alshaer &middot;
+<strong>Contact:</strong> ammarfor@gmail.com<br>
+<strong>Last updated:</strong> 2026-11-05</p>
+<hr>
+<h3 dir="ltr">Option 1 — inside the app (fastest)</h3>
+<p dir="ltr">Settings → <strong>☁ Google sync</strong> →
+<strong>“🗑 Delete my account and data”</strong> → confirm. The button
+deletes your sync documents, then your Firebase account, clears the
+session data from your device, and tells you the result. It is
+immediate.</p>
+<h3 dir="ltr">Option 2 — from this page, without installing the app</h3>
+<p dir="ltr">If you have already uninstalled the app, you do
+<strong>not</strong> need to install it again. Send an e-mail to
+<strong><a href="mailto:ammarfor@gmail.com?subject=Delete%20account%20%E2%80%94%20Istighfar%20Reminder">ammarfor@gmail.com</a></strong>
+<strong>from the same address you signed in with</strong> (this is what
+proves the account is yours), with the subject
+<code>Delete account — Istighfar Reminder</code>. Nothing else is
+required: there is no subscription, no payment and no prior step — the
+app is free.</p>
+<h3 dir="ltr">What is deleted</h3>
+<ul dir="ltr">
+<li><strong>All your sync documents</strong> under
+<code>users/{your-id}/sync</code> — your daily dhikr totals and the time
+of the last entry of each day.</li>
+<li><strong>Your account record</strong> in Firebase Authentication —
+your e-mail address and account ID.</li>
+</ul>
+<p dir="ltr">Nothing about you remains in the cloud afterwards.
+<strong>Deletion cannot be undone.</strong></p>
+<h3 dir="ltr">What this does not delete — and how to remove it</h3>
+<ul dir="ltr">
+<li><strong>Data on your device</strong> (your count, log and
+settings): uninstall the app, or go to System settings → Apps →
+“Istighfar Reminder” → Storage → Clear data.</li>
+<li><strong>Your Android backup in your own Google account</strong> (if
+automatic backup is on): managed from your device settings and your
+Google account — we have no access to it.</li>
+</ul>
+<h3 dir="ltr">Timing</h3>
+<p dir="ltr">In-app button: <strong>immediate</strong>. E-mail request:
+<strong>within 30 days at the most</strong> — in practice within days,
+and we confirm it by e-mail. We keep no copy after deletion, except
+where a law in force requires it — and none does today.</p>
+<hr>
+<p dir="ltr">📄 <a href="privacy.html">Full
+privacy policy</a></p>
+</div></main>
+<footer>© 2026 Ammar Alshaer · مُذكِّر الاستغفار</footer>
+</body>
+</html>
